@@ -5,12 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tailwindcss -i ./src/index.css -o ./dist/assets/index.css --minify && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-
-    "tw:watch": "tailwindcss -i ./src/tailwind-input.css -o ./src/index.css --watch",
-    "tw:build": "tailwindcss -i ./src/tailwind-input.css -o ./src/index.css --minify"
+    "build:css": "npx tailwindcss -i ./src/index.css -o ./dist/assets/index.css --minify",
+    "build": "npm run build:css && vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
   "dependencies": {
     "lucide-react": "^0.556.0",
