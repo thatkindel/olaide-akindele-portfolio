@@ -16,15 +16,15 @@ const projects = [
     title: "Professional Portfolio Website",
     description: "A responsive, modern portfolio demonstrating strong competency in Frontend Development and structured data presentation. Built using React and Tailwind CSS to ensure a fast, mobile-friendly user experience. This project also showcases expertise in integrating development and Business Process Automation (BPA) specializations.",
     stack: ["React", "Vite", "Tailwind CSS", "JSX", "Responsive Design"],
-    liveLink: "#", // IMPORTANT: This will be updated after deployment to your live URL!
-    githubLink: "https://github.com/YourUsername/your-repo-name", // IMPORTANT: Update with your real GitHub repo URL
+    liveLink: "#", 
+    githubLink: "https://github.com/thatkindel/olaide-akindele-portfolio", 
     },
   {
     title: "Food.ca - Full-Service Restaurant Platform (Ongoing)",
     description: "Developed a responsive, feature-rich website for a conceptual Canadian food business, focusing on seamless user experience (UX). Features include an interactive menu with dietary filters, integrated reservation system, and a robust architecture ready for future online ordering integration.",
     stack: ["React", "Tailwind CSS", "Node.js (Express)", "MongoDB", "REST APIs", "Mobile-First Design"],
-    liveLink: "http://food.ca-demo.com", // Conceptual URL for the live project
-    githubLink: "https://github.com/YourUsername/Food.ca-platform", // Link to the GitHub repo for this project
+    liveLink: "http://food.ca-demo.com", 
+    githubLink: "https://github.com/YourUsername/Food.ca-platform", 
     },
 ];
 
