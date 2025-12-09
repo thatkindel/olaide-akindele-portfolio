@@ -9,7 +9,7 @@ const projects = [
     title: "WildherWays - Small Business Website",
     description: "A responsive website built to showcase the small business, services offered, event management, reviews, and payment gateway for easy product shopping. modern component architecture in React.",
     stack: ["React", "Next.js", "Tailwind CSS", "Typescript"],
-    liveLink: "#", // Replace with live demo URL
+    liveLink: "https://www.wildherways.com", 
     githubLink: "https://github.com/wild-her-ways/wild-her-ways-FE", 
   },
   {
